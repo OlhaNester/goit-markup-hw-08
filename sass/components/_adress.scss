@@ -1,0 +1,25 @@
+.adress {
+  display: flex;
+  margin-left: auto;
+  color: #ffffff;
+  font-style: normal;
+
+  &-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: $primary-text-colour;
+  }
+  &-phone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  .item + .item {
+    margin-left: 50px;
+  }
+}
+
+.container-adress {
+  width: 231px;
+}

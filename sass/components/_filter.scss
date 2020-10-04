@@ -1,0 +1,31 @@
+.filter-button {
+  border-radius: 4px;
+  padding: 6px 22px;
+  color: $title-text-colour;
+  background-color: $sec-background-color;
+  font-family: $FontMain;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: inherit;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $accent-colour;
+  }
+}
+
+.container-filter .list {
+  @include centeredflex(flex);
+  margin-top: 94px;
+  margin-bottom: 43px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio .filter + .filter {
+  margin-left: 8px;
+}

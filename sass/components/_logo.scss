@@ -1,0 +1,18 @@
+.accent-logo {
+    color: $accent-colour;
+  }
+  
+  .logo {
+    color: #000000;
+    font-family: $FontLogo;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  footer .logo {
+    color: #ffffff;
+    font-family: $FontLogo;
+    padding-bottom: 20px;
+    display: block;
+  }

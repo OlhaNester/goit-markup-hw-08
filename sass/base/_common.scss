@@ -1,0 +1,68 @@
+.body {
+  color: $primary-text-colour;
+  font-family: $FontMain;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-title {
+  color: $title-text-colour;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nav {
+  @include centeredflex(flex);
+}
+
+.item {
+  @include centeredflex(inline-flex);
+}
+
+.menu {
+  @include centeredflex(flex);
+}
+
+.container-social-list .list-title,
+.container-subscribe .list-title {
+  color: $footer-text-colour;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.container-social-list .social-list {
+  margin: 0;
+}
+.picture {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}

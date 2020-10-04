@@ -1,0 +1,126 @@
+.contact-form {
+  width: 448px;
+}
+.modal h2 {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: $title-text-colour;
+}
+.field-form {
+  position: relative;
+  margin-bottom: 10px;
+
+  &.comment {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  &.checkbox {
+    display: flex;
+    align-items: center;
+    width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  label {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: $primary-text-colour;
+  }
+  textarea {
+    resize: none;
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+}
+.field-input {
+  width: 100%;
+  margin: 0px;
+  padding: 11px 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.field-input textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.field-input:focus,
+textarea:focus {
+  outline-color: $accent-colour;
+  border: none;
+}
+.field-input:focus ~ .icon-form {
+  fill: $accent-colour;
+}
+
+.checkbox-input {
+  appearance: none;
+}
+.field-form.checkbox .checkbox-label {
+  position: relative;
+  font-size: 14px;
+}
+.checkbox-label span::before {
+  content: " ";
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-image: url("../index_images/icons/Checkbox.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 8.4px;
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox-input:checked + span::before {
+  background-image: url("../index_images/icons/Check.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 8.4px;
+}
+.checkbox-label a {
+  color: $accent-colour;
+}
+
+.modal-button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding: 10px 55px;
+  border-width: 0;
+  color: #ffffff;
+  background-color: $accent-colour;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+}
+.icon-form {
+  bottom: 12px;
+  left: 11px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  fill: $title-text-colour;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

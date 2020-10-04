@@ -1,0 +1,79 @@
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-clients {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-item {
+  @include centeredflex(flex);
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clients-link {
+  @include centeredflex(flex);
+  width: 170px;
+  height: 90px;
+}
+%client {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients1 {
+  width: 44.27px;
+  height: 49.23px;
+  @extend %client;
+}
+.clients2 {
+  width: 40px;
+  height: 52px;
+  @extend %client;
+}
+
+.clients3 {
+  width: 41px;
+  height: 42.6px;
+  @extend %client;
+}
+.clients4 {
+  width: 79.66px;
+  height: 42.02px;
+  @extend %client;
+}
+.clients5 {
+  width: 59px;
+  height: 47px;
+  @extend %client;
+}
+.clients6 {
+  width: 88.48px;
+  height: 45.44px;
+  @extend %client;
+}
+.clients-item:hover {
+  border: 1px solid $accent-colour;
+
+  .clients1 {
+    fill: $accent-colour;
+  }
+  .clients2 {
+    fill: $accent-colour;
+  }
+  .clients3 {
+    fill: $accent-colour;
+  }
+  .clients4 {
+    fill: $accent-colour;
+  }
+  .clients5 {
+    fill: $accent-colour;
+  }
+  .clients6 {
+    fill: $accent-colour;
+  }
+}
