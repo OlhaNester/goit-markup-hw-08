@@ -16,6 +16,13 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 1200px) {
+  logo {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+
 footer .logo {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -421,6 +428,12 @@ textarea:focus {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 768px) {
+  .site-nav {
+    display: none;
+  }
+}
+
 .site-nav .item + .item {
   margin-left: 50px;
 }
@@ -757,6 +770,12 @@ footer .social-icon {
   font-style: normal;
 }
 
+@media screen and (max-width: 768px) {
+  .adress {
+    display: none;
+  }
+}
+
 .adress-envelope {
   width: 16px;
   height: 12px;
@@ -772,10 +791,6 @@ footer .social-icon {
 
 .adress .item + .item {
   margin-left: 50px;
-}
-
-.container-adress {
-  width: 231px;
 }
 
 .header .email-tel {
@@ -820,6 +835,10 @@ footer .social-icon {
   display: flex;
 }
 
+.container-adress {
+  width: 231px;
+}
+
 .body {
   color: #757575;
   font-family: "Roboto", sans-serif;
@@ -858,24 +877,36 @@ footer .social-icon {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container-social-list .list-title,

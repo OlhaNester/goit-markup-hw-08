@@ -10,6 +10,12 @@
     line-height: 1.2;
     text-decoration: none;
   }
+  @media screen and (max-width: 1200px) {
+    logo {
+    font-size: 24px;
+    line-height: 1.17;
+    }
+  }
   footer .logo {
     color: #ffffff;
     font-family: $FontLogo;

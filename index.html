@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Изучение основ HTML5 для новичков" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PageMaket</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -29,7 +29,16 @@
           <a href="./index.html" class="logo"
             ><span class="accent-logo">Web</span>Studio</a
           >
+          <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-nav" data-menu-button>
+          <svg class="menu" width="40" height="40" aria-label="Переключатель меню">
+            <use class="menu" href="./index_images/logo/symbol-defs.svg#menu"></use>
+            <use class="close" href="./index_images/logo/symbol-defs.svg#close"></use>
+          </svg>    
+                    
+        </button>
+          <div class="menu-nav" id="menu-nav" data-menu></div>
 
+         
           <ul class="site-nav">
             <li class="item">
               <a href="./index.html" class="link current">Студия</a>
@@ -646,6 +655,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/mob_menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
