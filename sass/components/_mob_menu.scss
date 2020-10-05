@@ -1,7 +1,5 @@
 .menu-button {
     display: inline-flex;
-// width: 40px;
-//     height: 40px;
     outline: 1px solid red;
     margin: 0;
     padding: 0;
@@ -13,18 +11,17 @@
         
     
 }
-.menu-button .close {
+.menu-button .icon-close {
     display: none;
 }
-.menu-button.is-open .close {
+.menu-button.is-open .icon-close {
 display: block;
 }
-.menu-button.is-open .menu {
+.menu-button.is-open .icon-menu {
     display: none;  
 }
 
 .menu-nav {
-outline: 1px solid red;
     position: absolute;
     top: 100%;
     width: 100%;
