@@ -55,7 +55,7 @@ p {
   margin-bottom: 0;
 }
 .nav {
-  position: relative;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,9 +65,9 @@ p {
 //   // @include centeredflex(inline-flex);
 // }
 
-// .menu {
-//   // @include centeredflex(flex);
-// }
+.menu {
+  position: relative;
+}
 
 .container-social-list .list-title,
 .container-subscribe .list-title {
