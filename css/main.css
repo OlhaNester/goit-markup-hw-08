@@ -433,6 +433,7 @@ textarea:focus {
 .link {
   outline: 1px solid red;
   display: block;
+  padding-bottom: 8px;
   color: #212121;
   font-weight: 500;
   line-height: 1.14;
@@ -755,16 +756,8 @@ footer .social-icon {
 }
 
 .adress {
-  display: flex;
-  margin-left: auto;
-  color: #ffffff;
+  color: black;
   font-style: normal;
-}
-
-@media screen and (max-width: 768px) {
-  .adress {
-    display: none;
-  }
 }
 
 .adress-envelope {
@@ -778,10 +771,6 @@ footer .social-icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-}
-
-.adress .item + .item {
-  margin-left: 50px;
 }
 
 .header .email-tel {
