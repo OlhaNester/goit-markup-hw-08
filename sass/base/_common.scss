@@ -61,9 +61,10 @@ p {
   justify-content: space-between;
 }
 
-// .item {
-//   // @include centeredflex(inline-flex);
-// }
+.item:not(:last-child) {
+ margin-bottom: 40px; 
+ list-style: none;
+}
 
 .menu {
   position: relative;

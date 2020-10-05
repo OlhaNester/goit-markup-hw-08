@@ -430,15 +430,9 @@ textarea:focus {
   margin: 60px 190px;
 }
 
-.site-nav .item + .item {
-  margin-bottom: 40px;
-}
-
 .link {
   outline: 1px solid red;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: #212121;
   font-weight: 500;
   line-height: 1.14;
@@ -904,6 +898,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 40px;
+  list-style: none;
 }
 
 .menu {

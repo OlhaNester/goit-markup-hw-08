@@ -1,9 +1,9 @@
 .adress {
-  display: flex;
-  margin-left: auto;
+  // display: flex;
+  // margin-left: auto;
   color: #ffffff;
   font-style: normal;
-  @media screen and (max-width: 768px) {display: none;
+  // @media screen and (max-width: 768px) {display: none;
   }
 
   &-envelope {
@@ -17,9 +17,9 @@
     height: 16px;
     margin-right: 10px;
   }
-  .item + .item {
-    margin-left: 50px;
-  }
+  // .item + .item {
+  //   margin-left: 50px;
+  // }
   
 }
 
