@@ -1,12 +1,17 @@
 .menu-button {
-width: 40px;
-    height: 40px;
+    display: inline-flex;
+// width: 40px;
+//     height: 40px;
     outline: 1px solid red;
     margin: 0;
     padding: 0;
-    display: inline-flex;
+    
     background-color: transparent;
     border: none;
+
+    @media screen and (min-widht: 768px) {display: none;}
+        
+    
 }
 .menu-button .close {
     display: none;
@@ -21,12 +26,15 @@ display: block;
 .menu-nav {
 outline: 1px solid red;
     position: absolute;
-    top: 0;
+    top: 100%;
     width: 100%;
     height: 480px;
     left: 0;
-}
 
-.menu-nav .is-open {
+
+&.is-open {
     display: block;
+}
+@media screen and (max-widht: 767) {display: none;}
+
 }
