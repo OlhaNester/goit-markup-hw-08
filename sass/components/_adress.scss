@@ -1,9 +1,10 @@
 .adress {
-  // display: flex;
-  // margin-left: auto;
-  color: black;
+    color:white;
   font-style: normal;
-  // @media screen and (max-width: 768px) {display: none;}
+  padding: 0;
+  text-align: center;
+  display: block;
+ 
  
 
 
@@ -21,3 +22,11 @@
   }
 
 }
+.adress .item:not(:last-child) {
+  margin-bottom: 16px; 
+  
+ }
+ .adress .item {
+  list-style: none;
+  padding: 0;
+ }
