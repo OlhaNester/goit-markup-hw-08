@@ -10,8 +10,10 @@
   height: 44px;
   text-align: center;
   justify-content: space-between;
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  // margin-left: 32px; - desktop
+  // margin-right: 32px; -desktop
   list-style: none;
   padding-left: 0;
 }
