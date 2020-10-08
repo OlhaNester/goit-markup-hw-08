@@ -1,7 +1,12 @@
 .container-subscribe {
-  width: 570px;
-  height: 86px;
-  margin-left: 93px;
+  width: 450px;
+  height: 156px;
+  margin-right: auto;
+  margin-left: auto;
+  // width: 570px;
+  // height: 86px;
+  // margin-left: 93px; - для десктопа
+  
 
   label {
     display: inline-block;
@@ -17,6 +22,8 @@
   }
 }
 .subscribe-button {
+  margin-left: auto;
+  margin-right: auto;
   @include centeredflex(flex);
   width: 200px;
   height: 50px;
@@ -55,6 +62,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
+  margin-bottom: 20px;
 
   &::placeholder {
     padding-top: 15px;
@@ -65,6 +73,8 @@
   }
 }
 .input-button {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  align-items: center;
+  // display: flex;
+  // justify-content: space-between;-десктоп
 }

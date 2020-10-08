@@ -5,12 +5,21 @@
 
   .adress {
     display: block;
+    align-items: center;
   }
 
   .container {
-    display: flex;
+    display: block;
   }
+  
 }
 .container-adress {
-  width: 231px;
+  width: 100%;
+}
+footer .logo {
+  color: #ffffff;
+  font-family: $FontLogo;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
 }

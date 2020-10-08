@@ -23,16 +23,26 @@
   }
 }
 
-footer .logo {
-  color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  padding-bottom: 20px;
-  display: block;
+.section-clients {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.section-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.section-clients .section-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
 }
 
 .list-clients {
@@ -65,18 +75,25 @@ footer .logo {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  margin: 15px;
 }
 
 @media screen and (max-width: 767px) {
   .clients-item {
     width: calc(((100% - 30px) - 30px) / 2);
+    margin: 15px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients-item {
     width: calc(((100% - 30px) - 2*30px) / 3);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1200x) {
+  .clients-item {
+    width: 170px;
   }
 }
 
@@ -665,9 +682,10 @@ textarea:focus {
 }
 
 .container-subscribe {
-  width: 570px;
-  height: 86px;
-  margin-left: 93px;
+  width: 450px;
+  height: 156px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container-subscribe label {
@@ -685,6 +703,8 @@ textarea:focus {
 }
 
 .subscribe-button {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -725,6 +745,7 @@ textarea:focus {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
+  margin-bottom: 20px;
 }
 
 .input-email::placeholder {
@@ -736,15 +757,14 @@ textarea:focus {
 }
 
 .input-button {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  align-items: center;
 }
 
 .container-social-list {
   width: 206px;
   height: 80px;
-  margin-left: 70px;
-  margin-top: 12px;
+  margin: 60px auto;
 }
 
 .social-list {
@@ -865,14 +885,23 @@ footer .social-icon {
 
 .footer .adress {
   display: block;
+  align-items: center;
 }
 
 .footer .container {
-  display: flex;
+  display: block;
 }
 
 .container-adress {
-  width: 231px;
+  width: 100%;
+}
+
+footer .logo {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
 }
 
 .body {
@@ -909,16 +938,12 @@ footer .social-icon {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding-top: 26px;
-    padding-bottom: 26px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
 }
 
@@ -945,6 +970,7 @@ p {
   line-height: 1.14;
   text-transform: uppercase;
   margin: 0;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 
