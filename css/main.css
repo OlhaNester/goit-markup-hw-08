@@ -49,8 +49,10 @@ footer .logo {
   }
 }
 
-@media screen and (min-widht: widht 1199px) {
+@media screen and (min-width: 1200px) {
   .list-clients {
+    margin: 0px;
+    display: flex;
     justify-content: space-between;
   }
 }

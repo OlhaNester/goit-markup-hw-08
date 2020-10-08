@@ -13,7 +13,13 @@
     margin: -15px;  
     
   }
-   @media screen and (min-widht: widht 1199px) {justify-content: space-between;    
+ 
+  @media screen and (min-width: 1200px) {
+   margin: 0px;
+    display: flex;
+    justify-content: space-between; 
+    
+      
   }
  
 }
@@ -34,6 +40,11 @@
     width: calc(((100% - 30px) - 2*30px) / 3);
     
   }
+  // @media screen and (min-width: 1200x) { 
+  //   width: 170px;
+  //   margin: 0px;
+    
+  // }
 }
 
 .clients-link {
