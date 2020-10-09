@@ -790,6 +790,14 @@ textarea:focus {
   margin-left: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .container-subscribe {
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+  }
+}
+
 .container-subscribe label {
   display: block;
   text-align: center;
@@ -799,6 +807,12 @@ textarea:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-subscribe label {
+    display: inline-block;
+  }
 }
 
 .container-subscribe input {
@@ -838,6 +852,12 @@ textarea:focus {
   background-size: contain;
 }
 
+@media screen and (min-width: 1200px) {
+  .subscribe-button {
+    margin: 0;
+  }
+}
+
 .input-email {
   width: 450px;
   height: 50px;
@@ -851,6 +871,12 @@ textarea:focus {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .input-email {
+    width: 358px;
+  }
+}
+
 .input-email::placeholder {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -861,7 +887,19 @@ textarea:focus {
 
 .input-button {
   display: block;
-  align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .input-button {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .input-button {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .section-team .social-list {
@@ -985,8 +1023,10 @@ footer .social-icon {
   align-items: center;
 }
 
-.footer .container {
-  display: block;
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+  }
 }
 
 .container-adress {
@@ -996,6 +1036,12 @@ footer .social-icon {
 @media screen and (min-width: 768px) {
   .container-adress {
     width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-adress {
+    width: 231px;
   }
 }
 
@@ -1021,6 +1067,15 @@ footer .logo {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .container-social-list {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 12px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .adress-social-list {
     display: flex;
@@ -1036,6 +1091,13 @@ footer .logo {
   margin: 0px auto;
   list-style: none;
   padding-left: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .social-list {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
 }
 
 .body {
