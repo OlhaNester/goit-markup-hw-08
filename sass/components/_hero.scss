@@ -3,11 +3,28 @@
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: linear-gradient(
+  
+    @media screen and (max-width: 767px){
+      background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../index_images/Hero/Hero_1x.jpg);
+    url(../index_images/Hero/Hero-mob.jpg);}
+
+    @media screen and (min-width: 768px){
+      background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+      url(../index_images/Hero/Hero-tab.jpg); 
+         }
+         @media screen and (min-width: 1200px) {
+          background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url(../index_images/Hero/Hero-desk.jpg); 
+         }
   max-width: 1600px;
   height: 400px;
   background-size: cover;
