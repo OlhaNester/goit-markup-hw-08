@@ -399,15 +399,24 @@ textarea:focus {
   margin-right: 0;
 }
 
-@media screen and (min-width: 480px) {
-  .section-example {
-    padding-bottom: 94px;
-    display: none;
-  }
-}
-
 .section-example {
   padding-bottom: 94px;
+}
+
+.section-example .section-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .section-example {
+    display: none;
+  }
 }
 
 .name-example {
