@@ -15,6 +15,9 @@
 }
 .container-adress {
   width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 50%;
+}
 }
 footer .logo {
   color: #ffffff;
@@ -22,4 +25,38 @@ footer .logo {
   padding-bottom: 20px;
   display: block;
   text-align: center;
+}
+.container-social-list {
+  width: 206px;
+  height: 80px;
+  margin: 60px auto;
+
+  // .container-social-list .social-list {
+  //   margin: 0;
+  // }
+
+  @media screen and (min-width: 768px){
+   width: 50%; 
+   margin-top: 5px;
+   margin-bottom: 102px;
+  }
+}
+
+.adress-social-list {
+
+  @media screen and (min-width: 768px){
+   display: flex; 
+  }
+}
+.footer .social-list {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0px auto;
+    // margin-left: 32px; - desktop
+  // margin-right: 32px; -desktop
+  list-style: none;
+  padding-left: 0;
 }

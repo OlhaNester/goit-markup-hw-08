@@ -864,12 +864,6 @@ textarea:focus {
   align-items: center;
 }
 
-.container-social-list {
-  width: 206px;
-  height: 80px;
-  margin: 60px auto;
-}
-
 .social-list {
   display: flex;
   width: 206px;
@@ -999,12 +993,38 @@ footer .social-icon {
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .container-adress {
+    width: 50%;
+  }
+}
+
 footer .logo {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   padding-bottom: 20px;
   display: block;
   text-align: center;
+}
+
+.container-social-list {
+  width: 206px;
+  height: 80px;
+  margin: 60px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container-social-list {
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 102px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .adress-social-list {
+    display: flex;
+  }
 }
 
 .body {
