@@ -143,33 +143,29 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="list-example list">
             <li class="example">
-              <a href="" class="picture"
-                ><img
-                  src="./index_images/box1.jpg"
-                  alt="Рабочее место"
-                  width="370"
-                />
-              </a>
-              <div class="name-example">
+              <picture> 
+                <source srcset="./index_images/Example/desktop.jpg 1x, ./index_images/Example/desktop@2x.jpg 2x" type="image" media="(min-width: 1200px)" />
+                  <img src="./index_images/Example/box1.jpg" width="370" alt="desktop apps" />
+                </picture>
+                <div class="name-example">
                 <h3 class="list-title">Десктопные приложения</h3>
               </div>
             </li>
             <li class="example">
-              <a href="" class="picture"
-                ><img
-                  src="./index_images/box2.jpg"
-                  alt="Ноутбук и айфон"
-                  width="370"
-                />
-              </a>
+              <picture> 
+                <source srcset="./index_images/Example/mobile.jpg 1x, ./index_images/Example/mobile@2x.jpg 2x" type="image" media="(min-width: 1200px)" />
+                  <img src="./index_images/Example/box2.jpg" width="370" alt="mobile apps" />
+                </picture>
+              
               <div class="name-example">
                 <h3 class="list-title">Мобильные приложения</h3>
               </div>
             </li>
             <li class="example">
-              <a href="" class="picture"
-                ><img src="./index_images/box3.jpg" alt="Планшет" width="370" />
-              </a>
+              <picture> 
+                <source srcset="./index_images/Example/design.jpg 1x, ./index_images/Example/design@2x.jpg 2x" type="image" media="(min-width: 1200px)" />
+                  <img src="./index_images/Example/box3.jpg" width="370" alt="tablet apps" />
+                </picture>
               <div class="name-example">
                 <h3 class="list-title">Дизайнерские решения</h3>
               </div>
@@ -181,16 +177,16 @@
       <section class="section-team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="list-team list">
+          <ul class="list-team">
             <li class="team">
               <picture> 
-                <source srcset="./index_images/team-desktop/igor.jpg 1x,./index_images/team-desktop/igor@2x.jpg 2x"media="(min-width: 1200px)" />
-                <source srcset="./index_images/team-tablet/igor.jpg 1x, ./index_images/team-tablet/igor@2x.jpg 2x" media="(min-width: 768px)" />
-                <source srcset="./index_images/team-mobile/igor.jpg 1x, ./index_images/team-mobile/igor@2x.jpg 2x" media="(max-width: 767px)" />
+                <source srcset="./index_images/team-desktop/igor.jpg 1x,./index_images/team-desktop/igor@2x.jpg 2x" type="image" media="(min-width: 1200px)" />
+                <source srcset="./index_images/team-tablet/igor.jpg 1x, ./index_images/team-tablet/igor@2x.jpg 2x" type="image" media="(min-width: 768px)" />
+                <source srcset="./index_images/team-mobile/igor.jpg 1x, ./index_images/team-mobile/igor@2x.jpg 2x" type="image" media="(max-width: 767px)" />
                 <img
                   src="./index_images/img_team1.jpg"
                   alt="Игорь Демьяненко"
-                  width="450"
+                  width=100%
                 />
               </picture>
               
@@ -256,13 +252,13 @@
 
             <li class="team">
               <picture>
-                <source srcset="./index_images/team-desktop/olga.jpg 1x, ./index_images/team-desktop/olga@2x.jpg 2x"  media="(min-width: 1200px)" />
-                <source srcset="./index_images/team-tablet/olga.jpg 1x, ./index_images/team-tablet/olga@2x.jpg 2x" media="(min-width: 768px)" />
-                <source srcset="./index_images/team-mobile/olga.jpg 1x, ./index_images/team-mobile/olga@2x.jpg 2x" media="(max-width: 767px)" />
+                <source srcset="./index_images/team-desktop/olga.jpg 1x, ./index_images/team-desktop/olga@2x.jpg 2x" type="image" media="(min-width: 1200px)" />
+                <source srcset="./index_images/team-tablet/olga.jpg 1x, ./index_images/team-tablet/olga@2x.jpg 2x" type="image" media="(min-width: 768px)" />
+                <source srcset="./index_images/team-mobile/olga.jpg 1x, ./index_images/team-mobile/olga@2x.jpg 2x" type="image" media="(max-width: 767px)" />
                 <img
                   src="./index_images/img_team2.jpg"
                   alt="Ольга Репина"
-                  width="450"
+                  width=100%
                 />
               </picture>
 
@@ -327,13 +323,13 @@
             </li>
             <li class="team">
               <picture>
-                <source srcset="./index_images/team-desktop/nikolay.jpg 1x, ./index_images/team-desktop/nikolay@2x.jpg 2x"  media="(min-width: 1200px)" />
-                <source srcset="./index_images/team-tablet/nikolay.jpg 1x, ./index_images/team-tablet/nikolay@2x.jpg 2x" media="(min-width: 768px)" />
-                <source srcset="./index_images/team-mobile/nikolay.jpg 1x, ./index_images/team-mobile/nikolay@2x.jpg 2x" media="(max-width: 767px)" />
+                <source srcset="./index_images/team-desktop/nikolay.jpg 1x, ./index_images/team-desktop/nikolay@2x.jpg 2x" type="image" media="(min-width: 1200px)" />
+                <source srcset="./index_images/team-tablet/nikolay.jpg 1x, ./index_images/team-tablet/nikolay@2x.jpg 2x" type="image" media="(min-width: 768px)" />
+                <source srcset="./index_images/team-mobile/nikolay.jpg 1x, ./index_images/team-mobile/nikolay@2x.jpg 2x" type="image" media="(max-width: 767px)" />
                 <img
                   src="./index_images/img_team3.jpg"
                   alt="Николай Тарасов"
-                  width="450"
+                  width=100%
                 />
               </picture>
                <h3 class="list-title">Николай Тарасов</h3>
@@ -397,13 +393,13 @@
             </li>
             <li class="team">
               <picture>
-                <source srcset="./index_images/team-desktop/mikhail.jpg 1x, ./index_images/team-desktop/mikhail@2x.jpg 2x" media="(min-width: 1200px)" />
-                <source srcset="./index_images/team-tablet/mikhail.jpg 1x, ./index_images/team-tablet/mikhail@2x.jpg 2x" media="(min-width: 768px)" />
-                <source srcset="./index_images/team-mobile/mikhail.jpg 1x, ./index_images/team-mobile/mikhail@2x.jpg 2x" media="(max-width: 767px)" />
+                <source srcset="./index_images/team-desktop/mikhail.jpg 1x, ./index_images/team-desktop/mikhail@2x.jpg 2x" type="image" media="(min-width: 1200px)" />
+                <source srcset="./index_images/team-tablet/mikhail.jpg 1x, ./index_images/team-tablet/mikhail@2x.jpg 2x" type="image" media="(min-width: 768px)" />
+                <source srcset="./index_images/team-mobile/mikhail.jpg 1x, ./index_images/team-mobile/mikhail@2x.jpg 2x" type="image" media="(max-width: 767px)" />
                 <img
                   src="./index_images/img_team4.jpg"
                   alt="Михаил Ермаков"
-                  width="450"
+                  width=100%
                 />
               </picture>
 

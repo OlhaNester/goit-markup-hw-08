@@ -211,13 +211,16 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team:not(:last-child) {
-  margin-bottom: 24px;
+@media screen and (max-width: 767px) {
+  .team:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .team {
-    width: calc((100% - 30px) / 2);
+    width: calc(((100% - 30px) - 30px) / 2);
+    margin: 15px;
   }
 }
 
@@ -232,10 +235,22 @@
   }
 }
 
+.list-team {
+  list-style: none;
+  padding: 0px;
+}
+
 @media screen and (min-width: 768px) {
   .list-team {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list-team {
+    margin: 0px;
   }
 }
 
@@ -250,6 +265,24 @@
   background-position: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../index_images/Hero/Hero-mob@2x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../index_images/Hero/Hero-tab@2x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../index_images/Hero/Hero-desk@2x.jpg);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -526,9 +559,12 @@ textarea:focus {
   }
 }
 
+.section-feature {
+  padding-top: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .section-feature {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
@@ -1225,9 +1261,9 @@ p {
   padding-bottom: 20px;
 }
 
-.picture {
-  display: flex;
-  max-width: 100%;
+img {
+  display: block;
+  width: 100%;
   height: auto;
 }
 
