@@ -36,6 +36,10 @@ display: block;
     left: 0;
     z-index: 10;
 
+    @media screen and (min-width: 768) {
+        display: flex;
+    }
+
 
 &.is-open {
     display: block;

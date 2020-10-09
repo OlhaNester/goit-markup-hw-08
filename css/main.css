@@ -1276,6 +1276,13 @@ p {
   position: relative;
 }
 
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .container-social-list .list-title,
 .container-subscribe .list-title {
   color: #ffffff;
@@ -1330,6 +1337,12 @@ img {
   height: 393px;
   left: 0;
   z-index: 10;
+}
+
+@media screen and (min-width: 768) {
+  .menu-nav {
+    display: flex;
+  }
 }
 
 .menu-nav.is-open {

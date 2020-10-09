@@ -51,6 +51,12 @@ p {
 
 .menu {
   position: relative;
+  @media screen and (min-width: 768px){
+    
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+}
 }
 
 .container-social-list .list-title,
