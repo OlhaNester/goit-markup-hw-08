@@ -864,7 +864,7 @@ textarea:focus {
   align-items: center;
 }
 
-.social-list {
+.section-team .social-list {
   display: flex;
   width: 206px;
   height: 44px;
@@ -1027,6 +1027,17 @@ footer .logo {
   }
 }
 
+.footer .social-list {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0px auto;
+  list-style: none;
+  padding-left: 0;
+}
+
 .body {
   color: #757575;
   font-family: "Roboto", sans-serif;
@@ -1095,10 +1106,6 @@ p {
   margin: 0;
   padding-top: 0px;
   padding-bottom: 20px;
-}
-
-.container-social-list .social-list {
-  margin: 0;
 }
 
 .picture {
