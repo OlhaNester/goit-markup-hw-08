@@ -67,6 +67,10 @@
     text-transform: uppercase;
     margin: 0;
     padding-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+    line-height: 1.36;
+    }
   }
   &-button {
     border-radius: 4px;

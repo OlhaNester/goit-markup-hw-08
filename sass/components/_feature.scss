@@ -47,7 +47,11 @@
     margin: 0;
     padding-bottom: 10px;
     padding-top: 30px;
-    text-align: center;
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+   
+
   }
 
 .feature-icon {
