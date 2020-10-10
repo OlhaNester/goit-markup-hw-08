@@ -1383,7 +1383,6 @@ footer .logo {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
 }
 
 @media screen and (min-width: 480px) {
@@ -1447,7 +1446,6 @@ img {
 
 .menu-button {
   display: inline-flex;
-  outline: 1px solid red;
   margin: 0;
   padding: 0;
   background-color: transparent;
