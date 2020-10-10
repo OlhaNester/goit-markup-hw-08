@@ -1253,6 +1253,7 @@ footer .social-icon {
     font-size: 14px;
     line-height: 1.14;
     align-items: center;
+    display: flex;
   }
 }
 
@@ -1325,6 +1326,9 @@ footer .logo {
     width: 50%;
     margin-top: 5px;
     margin-bottom: 102px;
+  }
+  .container-social-list .list-title {
+    text-align: center;
   }
 }
 
