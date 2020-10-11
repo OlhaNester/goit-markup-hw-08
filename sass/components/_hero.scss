@@ -20,7 +20,9 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../index_images/Hero/Hero-tab@2x.jpg);}
+
          @media screen and (min-width: 1200px) {
+           height: 600px;
           background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
@@ -44,6 +46,7 @@
       url(../index_images/Hero/Hero-tab.jpg); 
          }
          @media screen and (min-width: 1200px) {
+           height: 600px;
           background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
