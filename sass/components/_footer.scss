@@ -32,6 +32,11 @@ footer .logo {
   padding-bottom: 20px;
   display: block;
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    font-size: 26px;
+    line-height: 1.17;  
+  }
 }
 .container-social-list {
   width: 206px;

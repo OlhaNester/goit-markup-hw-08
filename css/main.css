@@ -74,6 +74,12 @@
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 1199px) {
+  .section-clients .section-title {
+    font-size: 28px;
+  }
+}
+
 .list-clients {
   list-style: none;
   padding: 0px;
@@ -234,13 +240,16 @@
 }
 
 .team {
-  width: 450px;
+  width: 100%;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 @media screen and (max-width: 767px) {
+  .team {
+    padding-bottom: 24px;
+  }
   .team:not(:last-child) {
     margin-bottom: 24px;
   }
@@ -250,6 +259,7 @@
   .team {
     width: calc(((100% - 30px) - 30px) / 2);
     margin: 15px;
+    padding-bottom: 24px;
   }
 }
 
@@ -311,6 +321,9 @@
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../index_images/Hero/Hero-desk@2x.jpg);
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 
@@ -329,6 +342,9 @@
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../index_images/Hero/Hero-desk.jpg);
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 
@@ -364,12 +380,12 @@
 }
 
 .contact-form {
-  width: 448px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1199px) {
   .contact-form {
-    width: 370px;
+    max-width: 370px;
   }
 }
 
@@ -396,11 +412,17 @@
 .field-form.checkbox {
   display: flex;
   align-items: center;
-  width: 425px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .field-form.checkbox {
+    max-width: 370px;
+  }
 }
 
 .field-form label {
@@ -583,7 +605,7 @@ textarea:focus {
 
 @media screen and (max-width: 767px) {
   .feature {
-    width: 450px;
+    width: 100%;
     margin-bottom: 30px;
   }
   .feature:nth-child(4n) {
@@ -773,12 +795,19 @@ textarea:focus {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  min-width: 450px;
-  min-height: 609px;
+  width: 100%;
+  max-width: 450px;
   padding: 40px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+    max-height: 581px;
+  }
 }
 
 .close-button {
@@ -862,12 +891,12 @@ textarea:focus {
 }
 
 .section-gallery {
-  padding-bottom: 94px;
+  padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .section-gallery {
-    padding-bottom: 60px;
+    padding-bottom: 94px;
   }
 }
 
@@ -888,6 +917,12 @@ textarea:focus {
 .gallery {
   outline: 1px solid #eeeeee;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -974,7 +1009,7 @@ textarea:focus {
 }
 
 .container-subscribe {
-  width: 450px;
+  width: 100%;
   height: 156px;
   margin-right: auto;
   margin-left: auto;
@@ -1049,7 +1084,7 @@ textarea:focus {
 }
 
 .input-email {
-  width: 450px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -1313,6 +1348,14 @@ footer .logo {
   padding-bottom: 20px;
   display: block;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  footer .logo {
+    text-align: start;
+    font-size: 26px;
+    line-height: 1.17;
+  }
 }
 
 .container-social-list {
